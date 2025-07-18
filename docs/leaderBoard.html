@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leader Board</title>
+    <link rel="stylesheet" href="/assets/css/leaderBoard.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo-container">
+                <img src="/assets/images/ncku_logo.png" alt="NCKU" class="logo" id="logo-ncku">
+                <img src="/assets/images/ncku_hospital_logo.png" alt="ncku_hospital" class="logo" id="logo-hospital">
+                <img src="/assets/images/SOC_logo.png" alt="SOC" class="logo" id="logo-soc">
+                <img src="/assets/images/logo_SClab_blue_font_cutted.png" alt="SLC" class="logo" id="logo-sclab">
+            </div>
+        </div>
+    </header>
+    <h1 class="site-title">A Data-Driven Framework for Analyzing Cultural Aspects with Large Language Models</h1>
+    <main>
+        <div class="intro-text">
+            <p class="text">In the realm of artificial intelligence, Large Language Models (LLMs) have emerged as quintessential exemplars of technological innovation. Nonetheless, a significant concern associated with LLMs pertains to the cultural biases embedded within their training datasets. Such biases invariably influence the models' ability to accurately reflect social norms and behaviors across diverse cultural landscapes. This research endeavor is dedicated to a comprehensive exploration of the cultural dimensions inherent in LLMs, with the objective of devising effective strategies to mitigate the identified challenges. The investigation will focus on assessing the current landscape of cultural diversity within LLMs, alongside a critical examination of the potential societal risks emanating from their operational biases. The study will delve into the models' proficiency in replicating social norms and behaviors across varied cultural contexts through the lens of moral dilemmas encountered by autonomous vehicles and health communication, serving as paradigms of cross-cultural scenarios. The culmination of this project will see the articulation of governance strategies aimed at enhancing the cultural diversity of LLMs. These strategies will encompass the review of training data and information, cross-cultural assessment of models, and governance norms. The aim of this project is to enhance the fair application of large language models across different cultural contexts and to provide pathways for the global regulation and governance of large language models.</p>
+        </div>
+        <section class="content">
+            <h2>Cultural Diversity in Moral Decision-Making in Autonomous Vehicles</h2>
+            <p class="text">
+                The Moral Machine Experiment (Awad et al., 2018) includes data on moral dilemma decision-making in autonomous vehicles from participants across 130 countries. 
+                By leveraging this dataset, we examine the accuracy of Large Language Models (LLMs) in simulating human decision-making across different cultural dimensions and 
+                use the standard deviation as an indicator of cultural diversity. The cultural dimensions encompass four types of cultural classifications: cultural cluster (Awad 
+                et al., 2018), cultural zone (Inglehart and Welzel, 2005), country, and language. Two subsets were sampled for comparison: an unbalanced dataset and a balanced dataset.
+            </p>
+            <div class="scenario-selector">
+                <label for="scenario">Scenario:</label>
+                <select id="scenario" onchange="updateButtons('moral')">
+                    <option value="unbalanced">Unbalanced Dataset: The distribution of country samples in the unbalanced dataset is consistent with the distribution of country samples in the Moral Machine Experiment dataset.</option>
+                    <option value="balanced">Balanced Dataset: The balanced dataset ensures equal representation from each country.</option>
+                </select>
+            </div>
+            <h2>Cultural and Ethical Bias in Vaccine Hesitancy Simulation</h2>
+            <p class="text">
+                "Revisiting COVID-19 vaccine hesitancy around the world using data from 23 countries in 2021" (Jeffrey V. Lazarus et al., 2021) includes data on COVID-19 vaccine hesitancy questionnaires from participants across 23 countries. By leveraging this dataset, we examine the accuracy of Large Language Models (LLMs) in simulating human decision-making across different cultural dimensions. We used MAE (Mean Absolute Error) to quantify the deviations between LLMs and human decisions.
+            </p>
+            <div class="scenario-selector">
+                <label for="vaccine-scenario">Scenario:</label>
+                <select id="vaccine-scenario" onchange="updateButtons('vaccine')">
+                    <option value="none">未選擇</option>
+                    <option value="vaccine-perception">Balanced Dataset: COVID-19 vaccine hesitancy around the world using data from 23 countries in 2021</option>
+                </select>
+            </div>
+        </section>
+        <section class="table-section">
+            <h2 id="table-title">The Moral Machine Experiment</h2>
+            <div id="button-container" class="button-container">
+                <!-- Buttons will be dynamically inserted here -->
+            </div>
+            <div id="explanation" class="explanation">
+                <!-- Explanation text will be dynamically inserted here -->
+            </div>
+            <table id="data-table">
+                <thead>
+                    <tr>
+                        <th>Model</th>
+                        <th>Cultural Cluster</th>
+                        <th>Cultural Zone</th>
+                        <th>Country</th>
+                        <th>Language</th>
+                    </tr>
+                </thead>
+                <tbody id="table-body">
+                    <tr>
+                        <td>GPT-3.5</td>
+                        <td>58.3</td>
+                        <td>58.2</td>
+                        <td>58.6</td>
+                        <td>59.1</td>
+                    </tr>
+                    <tr>
+                        <td>GPT-4</td>
+                        <td>64.7</td>
+                        <td>64.1</td>
+                        <td>64.7</td>
+                        <td>64.1</td>
+                    </tr>
+                    <tr>
+                        <td>Llama-2-7B</td>
+                        <td>53.3</td>
+                        <td>50.6</td>
+                        <td>52.4</td>
+                        <td>52.5</td>
+                    </tr>
+                    <tr>
+                        <td>Llama-3-8B</td>
+                        <td>50.3</td>
+                        <td>49.9</td>
+                        <td>49.9</td>
+                        <td>49.4</td>
+                    </tr>
+                    <tr>
+                        <td>Aquila-7B</td>
+                        <td>50.0</td>
+                        <td>50.1</td>
+                        <td>50.2</td>
+                        <td>50.7</td>
+                    </tr>
+                    <tr>
+                        <td>ChatGLM-6B</td>
+                        <td>51.0</td>
+                        <td>51.2</td>
+                        <td>50.2</td>
+                        <td>49.6</td>
+                    </tr>
+                    <tr>
+                        <td>ChatGLM-3-6B</td>
+                        <td>57.3</td>
+                        <td>56.6</td>
+                        <td>57.5</td>
+                        <td>57.4</td>
+                    </tr>
+                    <tr>
+                        <td>Mistral-7B</td>
+                        <td>49.3</td>
+                        <td>49.8</td>
+                        <td>49.6</td>
+                        <td>49.4</td>
+                    </tr>
+                    <tr>
+                        <td>Gemma-7B</td>
+                        <td>54.7</td>
+                        <td>55.2</td>
+                        <td>54.9</td>
+                        <td>56.4</td>
+                    </tr>
+                    <tr>
+                        <td>BERT</td>
+                        <td>50.3</td>
+                        <td>50.1</td>
+                        <td>50.6</td>
+                        <td>50.5</td>
+                    </tr>
+                    <tr>
+                        <td>RoBERTa</td>
+                        <td>49.3</td>
+                        <td>48.9</td>
+                        <td>49.0</td>
+                        <td>50.1</td>
+                    </tr>
+                    <tr>
+                        <td>DistilBERT</td>
+                        <td>50.0</td>
+                        <td>50.4</td>
+                        <td>50.2</td>
+                        <td>50.9</td>
+                    </tr>
+                    <tr>
+                        <td>ALBERT</td>
+                        <td>50.3</td>
+                        <td>50.1</td>
+                        <td>50.1</td>
+                        <td>50.2</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+    <script src="/assets/js/leaderBoard.js"></script>
+</body>
+</html>

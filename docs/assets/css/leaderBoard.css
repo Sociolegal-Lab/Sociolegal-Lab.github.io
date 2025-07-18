@@ -1,0 +1,124 @@
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #FFFFFF;
+    color: #0E133F;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo {
+    width: 50px;
+    height: auto;
+}
+
+/* Specific logo styling using ID selectors */
+#logo-ncku {
+    width: 50px;
+    margin-top: 5px;
+}
+
+#logo-soc {
+    width: 42px;
+}
+
+#logo-hospital {
+    width: 54px;
+    margin-top: 3px;
+}
+
+#logo-sclab {
+    margin-top: 2px;
+    width: 75px;
+}
+
+.site-title {
+    font-size: 27px;
+    font-weight: bold;
+    margin: 0;
+    text-align: center;
+}
+
+h2 {
+    font-size: 19px;
+}
+
+.intro-text {
+    text-align: left;
+    margin: 20px;
+    font-size: 16px;
+    line-height: 1.5em;
+}
+
+.content {
+    padding: 20px;
+    font-size: 16px;
+    background-color: #FFFFFF;
+    color: #0E133F;
+}
+
+.scenario-selector {
+    margin-bottom: 20px;
+}
+
+.table-section {
+    padding: 20px;
+    background-color: #0E133F;
+    color: #FFFFFF;
+}
+
+.table-section h2 {
+    margin-top: 0;
+}
+
+.button-container {
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    margin-right: 10px;
+    cursor: pointer;
+    background-color: #FFFFFF;
+    color: #0E133F;
+    border: none;
+    border-radius: 5px;
+}
+
+button.active {
+    background-color: #9BA6FD;
+    color: #0E133F;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #FFFFFF;
+    text-align: left;
+}
+
+p {
+    font-size: 13px;
+    text-align: justify;
+}
+
+.text {
+    font-size: 16px;
+    text-align: justify;
+}

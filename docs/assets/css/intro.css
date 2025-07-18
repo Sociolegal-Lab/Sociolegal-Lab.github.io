@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+.section {
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+.section.blue {
+    background-color: #364dfa; /* 背景顏色設為藍色 */
+}
+.left {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin-left: 20px;
+}
+.left .column {
+    flex: 1;
+}
+.left .column:first-child {
+    font-weight: lighter;
+}
+.right img {
+    width: auto;
+    height: 80px; /* 調整圖片高度 */
+    object-fit: cover;
+    margin-right: 20px;
+}
+.section.white {
+    background-color: white;
+    color: #0e133f;
+    justify-content: center;
+    padding: 20px;
+}

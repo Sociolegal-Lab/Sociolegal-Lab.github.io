@@ -1,0 +1,14 @@
+﻿Model,Cultural Cluster,Cultural Zone,Country,Language
+GPT-3.5,0.6,2.7,6.0,4.6
+GPT-4,0.6,2.6,5.5,4.3
+Llama-2-7B,3.5,7.8,14.0,13.4
+Llama-3-8B,0.6,1.3,4.8,4.1
+Aquila-7B,0.0,1.6,5.6,5.3
+ChatGLM-6B,0.0,1.1,5.4,4.1
+ChatGLM-3-6B,0.6,1.9,5.2,4.0
+Mistral-7B,0.6,1.8,4.8,4.7
+Gemma-7B,0.6,1.5,6.7,6.6
+BERT,0.6,2.6,6.8,5.8
+RoBERTa,0.6,2.3,6.5,5.8
+DistilBERT,1.7,1.6,6.1,4.6
+ALBERT,0.6,2.1,6.6,4.8
