@@ -15,7 +15,8 @@
       "facebook": null,
       "instagram": null
     },
-    "short_bio": "I am a Mathematics graduate from National Cheng Kung University with a strong focus on applying AI to legal text analysis. My research combines NLP, retrieval-augmented generation (RAG), and hierarchical knowledge modeling to enhance entity extraction, constitutional issue identification, and legal knowledge graph construction"
+    "short_bio": "I am a Mathematics graduate from National Cheng Kung University with a strong focus on applying AI to legal text analysis. My research combines NLP, retrieval-augmented generation (RAG), and hierarchical knowledge modeling to enhance entity extraction, constitutional issue identification, and legal knowledge graph construction",
+    "photo":""
     },
     {"id":"2", 
     "Chinese_name":"周穆可", 
@@ -35,7 +36,8 @@
       "facebook": null,
       "instagram": null
     },
-    "short_bio": "Mu-Ko Chou is a master's student in the Intelligent Technology Systems Program at the Miin Wu School of Computing, National Cheng Kung University (NCKU), with a background in political science. Her research focuses on AI ethics and the integration of diverse artificial intelligence technologies, particularly in: (1) legal AI applications; (2) incorporating cultural dimensions into LLMs to examine cross-cultural differences in simulated human decision-making; and (3) designing domain-specific LLM benchmarks with stakeholder participation to ensure local relevance, fairness, and practical value."
+    "short_bio": "Mu-Ko Chou is a master's student in the Intelligent Technology Systems Program at the Miin Wu School of Computing, National Cheng Kung University (NCKU), with a background in political science. Her research focuses on AI ethics and the integration of diverse artificial intelligence technologies, particularly in: (1) legal AI applications; (2) incorporating cultural dimensions into LLMs to examine cross-cultural differences in simulated human decision-making; and (3) designing domain-specific LLM benchmarks with stakeholder participation to ensure local relevance, fairness, and practical value.",
+    "photo":""
     },
     {"id":"3", 
     "Chinese_name":"侯欽祐", 
@@ -56,7 +58,8 @@
       "facebook": null,
       "instagram": null
     },
-    "short_bio": "I am a senior undergraduate in History at NCKU, focusing on Digital Humanities. My interests include applying AI, especially language models and retrieval techniques, to expand research possibilities."
+    "short_bio": "I am a senior undergraduate in History at NCKU, focusing on Digital Humanities. My interests include applying AI, especially language models and retrieval techniques, to expand research possibilities.",
+    "photo":""
     },
     {"id":"4", 
     "Chinese_name":"牛俊傑", 
@@ -76,7 +79,8 @@
       "facebook": null,
       "instagram": null
     },
-    "short_bio": "Chun-Chieh Niu is currently a master’s student in the Intelligent Technology Systems Program at the Miin Wu School of Computing, National Cheng Kung University (NCKU). He received his B.S. degree from the Department of Engineering Science at NCKU and now serves as the Chief Technology Officer (CTO) of TechNSport Technology. His research interests include robotics, the Internet of Things (IoT), large language models (LLMs), and sports science, with a focus on integrating AI and sensing technologies into smart sports applications and human–machine collaboration."
+    "short_bio": "Chun-Chieh Niu is currently a master’s student in the Intelligent Technology Systems Program at the Miin Wu School of Computing, National Cheng Kung University (NCKU). He received his B.S. degree from the Department of Engineering Science at NCKU and now serves as the Chief Technology Officer (CTO) of TechNSport Technology. His research interests include robotics, the Internet of Things (IoT), large language models (LLMs), and sports science, with a focus on integrating AI and sensing technologies into smart sports applications and human–machine collaboration.",
+    "photo":""
     },
     {"id":"5",
     "Chinese_name":"陳靖則", 
@@ -96,8 +100,10 @@
       "facebook": null,
       "instagram": null
     },
-    "short_bio": "Hi, I’m Jerry. I major in Industrial & Information Management and work part-time as a quantitative research consultant. I’m deeply interested in value investing, strategic history, and visual design, and I have a knack for strategy games. I believe that developing AI for regulatory domains—finance, law, defense, and medicine—is an inevitable trend. I’m pursuing both ends of the smile curve and believe that coherent communication and collaboration can boost our sync rate and lead us toward a better future."
-    },{
+    "short_bio": "Hi, I’m Jerry. I major in Industrial & Information Management and work part-time as a quantitative research consultant. I’m deeply interested in value investing, strategic history, and visual design, and I have a knack for strategy games. I believe that developing AI for regulatory domains—finance, law, defense, and medicine—is an inevitable trend. I’m pursuing both ends of the smile curve and believe that coherent communication and collaboration can boost our sync rate and lead us toward a better future.",
+    "photo":""
+    },
+    {
     "id":"6", 
     "Chinese_name":"林淑真",
     "English_name":"Amy Lin",
@@ -114,7 +120,8 @@
       "facebook": null,
       "instagram": null
     },
-    "short_bio": "I hold a Master’s degree in Advertising from National Chengchi University and currently serve as an Administrative Coordinator in our laboratory, supporting the team’s research activities and project operations."
+    "short_bio": "I hold a Master’s degree in Advertising from National Chengchi University and currently serve as an Administrative Coordinator in our laboratory, supporting the team’s research activities and project operations.",
+    "photo":""
     }
 ]
   
