@@ -2,29 +2,21 @@
     "Education": [
     {
       "degree": "J.S.D.",
-      "institution": "School of Law, University of California, Berkeley",
-      "period": "2020",
-      "description": null
+      "institution": "School of Law, University of California, Berkeley"
     },
     {
       "degree": "LL.M.",
-      "institution": "Yale Law School",
-      "period": "2012",
-      "description": null
+      "institution": "Yale Law School"
     },
     {
       "degree": "LL.B., LL.M.",
-      "institution": "National Taiwan University College of Law",
-      "period": "2007-2010",
-      "description": null
+      "institution": "National Taiwan University College of Law"
     }
   ],
   "Fellowships and Awards": [
     {
       "title": "司法院第五屆法律Ｘ法遵科技黑客松 銀獎、AIGC特別獎第一名",
-      "year": 2023,
-      "organization": "Judical Yuan of the Republic of China",
-      "description": "與臺灣大學語言所謝舒凱教授團隊共同參賽"
+      "year": 2023
     }
   ],
       "Journal Articles": [
@@ -40,18 +32,19 @@
       "title": "Artificial Intelligence Governance in East Asia: A Comparative Study of Taiwan, Japan, and South Korea",
       "publication": "Journal of East Asian Studies, 2023, 23(2), 175-198. (SSCI)."
     }
+    
   ],
   "Book Chapters": [
     {
-      "title": "〖人工智慧文化公平性評測：在地觀點〗",
+      "title": "人工智慧文化公平性評測：在地觀點",
       "publication": "李建良主編， 【數位社會的智慧治理：AI 時代下數位社會的人文課題與法治反思】 （預計 2025 出版）"
     },
     {
-      "title": "〖〖人工智慧管制的實踐困境：以檢察 AI 智慧輔助系統為例〗",
+      "title": "人工智慧管制的實踐困境：以檢察 AI 智慧輔助系統為例",
       "publication": "張文貞、林春元主編， 【行政法與管制理論】 （預計 2025 出版）"
     },
     {
-      "title": "〖The Use of Foreign Precedents by theConstitutional Court of Taiwan, in Irene Spigno et al. (Eds.)",
+      "title": "The Use of Foreign Precedents by theConstitutional Court of Taiwan, in Irene Spigno et al. (Eds.)",
       "publication": " Ten Years Later: The Use of Foreign Precedents by Constitutional Judges (2025, Hart Publishing), (Co-authored with Wen-Chen Chang)"
     }
   ],
