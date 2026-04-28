@@ -1,0 +1,636 @@
+{
+  "Education": [
+    {
+      "degree": "J.S.D.",
+      "institution": "School of Law, University of California, Berkeley"
+    },
+    {
+      "degree": "LL.M.",
+      "institution": "Yale Law School"
+    },
+    {
+      "degree": "LL.B., LL.M.",
+      "institution": "National Taiwan University College of Law"
+    }
+  ],
+  "Fellowships and Awards": [
+    {
+      "title": "司法院第五屆法律Ｘ法遵科技黑客松 銀獎、AIGC特別獎第一名",
+      "year": 2023
+    }
+  ],
+  "Journal Articles": [
+    {
+      "title": "Covid-19疫情下的風險溝通與公共問責：三級警戒期間我國政府每日防疫記者會記者提問之主題分析",
+      "publication": "醫藥、科技與法律，2024，29卷1期，頁37-98。（與梁志鳴、陳思安、蔡君宜合著）"
+    },
+    {
+      "title": "The overview of the BioRED (Biomedical Relation Extraction Dataset) track at BioCreative VIII",
+      "publication": "Database, 2024, baae069. (SCI) (Co-authored with Rezarta Islamaj, Po-Ting Lai, Chih-Hsuan Wei, et al., Yi-Yu Hsu, Mingjie Li, Karin Verspoor, Zhiyong Lu)"
+    },
+    {
+      "title": "Individualism, economic development, and democracy as determinants of COVID-19 risk information on 132 government websites",
+      "publication": "Preventive Medicine Reports, 2023, 34, 102242. (SCIE) (Co-authored with Jiun-Yi Tsai, Tsung-Jen Shih, Tien-I Tsai, Chih-Ming Liang)"
+    }
+  ],
+  "Book Chapters": [
+    {
+      "title": "人工智慧管制的實踐困境：以檢察 AI 智慧輔助系統為例",
+      "publication": "張文貞、林春元主編，《行政法與管制理論：葉俊榮教授的學術對話》，2025，頁417-434。"
+    },
+    {
+      "title": "Covid-19疫情下的風險溝通與公共問責——三級警戒期間我國政府每日防疫記者會記者提問之主題分析",
+      "publication": "王必芳主編，《行政管制與行政訴訟》，2025年7月，頁281-341。（與梁志鳴、陳思安、蔡君宜合著）"
+    },
+    {
+      "title": "The Escalating Use of Foreign Precedents by Individual Justices of Taiwan's Constitutional Court",
+      "publication": "In Irene Spigno et al. (Eds.), Judicial Bricolage: The Use of Foreign Precedents by Constitutional Judges in the 21st Century, 2025, pp. 295-309. Hart Publishing. (Co-authored with Wen-Chen Chang)"
+    }
+  ],
+  "Selected Conference Papers": [
+    {
+      "title": "LeArNER: Few-shot Legal Argument Named Entity Recognition",
+      "publication": "ICAIL'23: Proceedings of the 19th International Conference on Artificial Intelligence and Law (2023). Association for Computing Machinery. ISBN: 979-8-4007-0197-9. (Co-authored with Yu-Hsiang Tan and Han-Ting Yu, first author)"
+    },
+    {
+      "title": "Algorithmic Fairness and Cultural Specificity: The Case for Polycentric AI Governance",
+      "publication": "Japan-Taiwan EDGE-IL 2026（日臺青年國際法學者研討會），京都大學（2026年1月9–10日）"
+    },
+    {
+      "title": "Regulating Artificial Intimacy: A Rights-Based Framework for AI Companions",
+      "publication": "IACL Workshop, 明治大學（2025年12月8–9日）（Coauthored with Yi-Li Lee）"
+    },
+    {
+      "title": "Intersectional Moral Biases in Large Language Models: Evidence from the Moral Machine Experiment",
+      "publication": "Young Scholar Workshop on \"Empirical Legal Studies in the Sinophone Region\"（2025年10月21–22日）"
+    },
+    {
+      "title": "Navigating Judicial Overload: A Multi-Agent System for Argument Tracking in Constitutional Courts",
+      "publication": "Computational Legal Studies Workshop 2025, 新加坡管理大學（2025年9月8–9日）（Coauthored with Mu-Ko Chou, Yu-Chiao Chen, Chun-Che Huang, Chun-Chieh Niu, and Chin-You Hou）"
+    },
+    {
+      "title": "AI Agents in the Courts: Taiwan's Democratic Constraints on Judicial AI Agents",
+      "publication": "Seoul AI Policy Conference (SAIPCON)（2025年8月21日）"
+    },
+    {
+      "title": "Between 'AI Equality' and 'AI Democracy': Taiwan's Technopolitical Positioning in Global AI Governance",
+      "publication": "2025 ICON•S Conference, Brasília, Brazil（2025年7月28–30日）"
+    },
+    {
+      "title": "Legislative Overreach and Constitutional Stalemate in Taiwan",
+      "publication": "2025 ICON•S Conference, Brasília, Brazil（2025年7月28–30日）（Coauthored with Yi-Li Lee）"
+    },
+    {
+      "title": "Evaluating Global Standards for Cultural Fairness in AI Governance",
+      "publication": "Reconfiguring the Discourse on AI & Law, 中央研究院歐美研究所（2025年6月4–5日）"
+    },
+    {
+      "title": "Risks of Cultural Homogenization in AI: An Intersectional Analysis of Large Language Models",
+      "publication": "臺日青年學者憲法論壇，國立臺灣大學法律學院（2024年9月20日）"
+    },
+    {
+      "title": "Stable Diffusion Zero-Shot Anomaly Detection with Segment Anything",
+      "publication": "CVGIP 2024（第三十七屆電腦視覺、圖學及影像處理研討會）（2024）（Coauthored with Chia-En Yang）"
+    },
+    {
+      "title": "Knowledge-Infused Legal RAG for Comparative Law",
+      "publication": "中研院法律學研究所法實證工作坊（2024年8月7–8日）（Coauthored with Yu-Hsiang Tan）"
+    },
+    {
+      "title": "Exploring Biomedical Relation Extraction through ChatGPT Augmentation and Dual Training",
+      "publication": "AMIA 2023 Annual Symposium / BioCreative VIII, New Orleans, Louisiana（2023年11月）（Coauthored with Han-Ting Yu, Bo-Cheng Qiu, Shao-Ting Yen, Cheng-Yang Wang, Yu-Han Wu, and Yi-Yu Hsu）"
+    },
+    {
+      "title": "Public Officials and Health Agenda Politicization: Taiwan's COVID-19 Experience",
+      "publication": "Empirical Legal Studies in the Sinophone Region Conference, Cornell Law School（2023年10月9–10日）"
+    },
+    {
+      "title": "Generating Moral Machines",
+      "publication": "中研院法律學研究所法實證工作坊（2023年8月2–3日）（Coauthored with Han-Ting Yu）"
+    },
+    {
+      "title": "The Use of Foreign Precedents by the Constitutional Court of Taiwan",
+      "publication": "World Congress of Constitutional Law 2022, Johannesburg, South Africa（2022年12月）（Coauthored with Wen-Chen Chang）"
+    },
+    {
+      "title": "Judicial Agenda Setting in the Age of Social Media: Evidence from Taiwan",
+      "publication": "Courts and Social Change: Comparative Perspectives in Ibero-American and Asian Legal Systems, Berkeley（2022年11月4–5日）"
+    },
+    {
+      "title": "司法院大法官解釋意見書總體實證分析：1948-2021",
+      "publication": "第十三屆憲法解釋之理論與實務研討會，中央研究院（2022年8月9–10日）（與張文貞合著）"
+    },
+    {
+      "title": "A Computational Analysis of Agenda-Setting Function among Multiple Actors during COVID-19: Evidence from Taiwan",
+      "publication": "中研院法律學研究所法實證工作坊（2022年7月25–26日）（Coauthored with Jiun-Yi Tsai and Chih-Ming Liang）"
+    },
+    {
+      "title": "Cultural Values or National Development? Understanding the Predictors of Information Presentation on 134 Government Websites of COVID-19",
+      "publication": "The Science of Science Communication (ICA Preconference), Paris, France（2022年5月）（Coauthored with Jiun-Yi Tsai, Tsung-Jen Shih, Tien-Yi Tsai, Chih-Ming Liang）"
+    },
+    {
+      "title": "Extracting Evolving Trend from Research Papers: A Meta-Analysis of X-Discipline Research in Higher Education",
+      "publication": "Proceedings of the 13th International Multi-Conference on Complexity, Informatics and Cybernetics（2022年3月）（Coauthored with Hui-Hsin Wang, Hsiang-Wen Wang, Qiong-Yun Zhang, Chi-Jung Huang）"
+    },
+    {
+      "title": "Covid-19疫情下的風險溝通與民主課責：三級警戒期間我國政府每日防疫記者會記者提問之主題分析",
+      "publication": "2021行政管制與行政爭訟學術研討會——防疫與法治，中央研究院（2021年11月）（與梁志鳴、蔡君怡合著）"
+    },
+    {
+      "title": "Compare Government Health Communication in Taiwan and New Zealand during COVID-19: A Computational Analysis",
+      "publication": "2021 Annual Meeting, American Public Health Association, Denver（2021年10月24–27日）（Coauthored with Jiun-Yi Tsai and Chih-Ming Liang）"
+    },
+    {
+      "title": "The Emergence of Popular Constitutionalism",
+      "publication": "International Academy of Comparative Law Younger Scholars Forum, 福岡, 日本（2018年7月25日）"
+    },
+    {
+      "title": "Do Justices' Scholarly Backgrounds Affect the Writing of Separate Opinions",
+      "publication": "Chicago-Tsinghua Young Faculty Forum on Law and Social Science, 北京（2018年5月31日–6月1日）（Coauthored with Chien-Chih Lin and Han-Wei Ho）"
+    },
+    {
+      "title": "Solving Author Attribution Algorithmically? The Case of the Constitutional Court of Taiwan",
+      "publication": "International Meeting on Law and Society, 墨西哥城（2017年6月20–23日）"
+    },
+    {
+      "title": "Crowdsourcing Experiment Designs for Chinese Word Sense Annotation",
+      "publication": "ROCLING, 臺南（2016年10月）（Coauthored with Tzu-Yun Huang, Hsiao-Han Wu, Chia-Chen Lee, Guan-Wei Li, Shu-Kai Hsieh）"
+    }
+  ],
+  "Projects": [
+    {
+      "title": "建置臺灣法實證研究資料庫第七期實施計畫",
+      "year": "2025-2029",
+      "organization": "國科會",
+      "description": "子計畫主持人"
+    },
+    {
+      "title": "性福 AI 魔鏡：性病自我採檢互動人機介面與雲端平台",
+      "year": "2025-2026",
+      "organization": "國科會產學合作",
+      "description": "子計畫主持人"
+    },
+    {
+      "title": "成功大學敏求智慧運算學院未來之星計畫《大型法律概念模型：跨模態法律推理與檢察智慧輔助系統之建構》",
+      "year": "2025-2026",
+      "organization": "成功大學敏求智慧運算學院",
+      "description": "主持人"
+    },
+    {
+      "title": "如何訓練人文學科專用語言模型（一）：對話式資料查詢系統",
+      "year": "2025-2026",
+      "organization": "成大跨域教學計畫",
+      "description": "協同主持人"
+    },
+    {
+      "title": "成功大學人文創新及社會落實計畫",
+      "year": "2025-2026",
+      "organization": "成功大學",
+      "description": "協同主持人"
+    },
+    {
+      "title": "法務部 113 年度新世紀檢察 AI 智慧輔助系統建置案",
+      "year": "2024-2025",
+      "organization": "法務部",
+      "description": "主持人"
+    },
+    {
+      "title": "子計畫：跨文化視角下生成式語言模型的價值偏見與健康傳播效應評估：以疫苗遲延現象為例",
+      "year": "2024-2025",
+      "organization": "國科會 成功大學防疫科學研究中心",
+      "description": "共同主持人"
+    },
+    {
+      "title": "成功大學敏求智慧運算學院未來之星計畫《大型語言模型的同化風險：多元文化的反思》",
+      "year": "2024-2025",
+      "organization": "成功大學敏求智慧運算學院",
+      "description": "主持人"
+    },
+    {
+      "title": "透過群眾直播串流來建構增強觀眾參與度及沉浸式多媒體之 5G 智慧體育館",
+      "year": "2023-2026",
+      "organization": "國科會",
+      "description": "子計畫協同主持人"
+    },
+    {
+      "title": "子計畫：與病毒共存-後疫苗時代風險評估與風險溝通",
+      "year": "2023-2024",
+      "organization": "國科會 成功大學防疫科學研究中心",
+      "description": "協同主持人"
+    },
+    {
+      "title": "成功大學人文社會科學跨領域整合型研究計畫《誤判的原因分析及其救濟之整合研究》",
+      "year": "2023",
+      "organization": "成功大學",
+      "description": "子計畫主持人"
+    },
+    {
+      "title": "AI 時代下數位社會的人文課題與法治反思",
+      "year": "2022-2025",
+      "organization": "國科會",
+      "description": "子計畫主持人"
+    },
+    {
+      "title": "司法院大法官會議：網絡分析觀點",
+      "year": "2022-2023",
+      "organization": "國科會",
+      "description": "主持人"
+    },
+    {
+      "title": "子計畫：與病毒共存-後疫苗時代風險評估與風險溝通",
+      "year": "2022-2023",
+      "organization": "國科會 成功大學防疫科學研究中心",
+      "description": "協同主持人"
+    }
+  ],
+  "Courses": [
+    {
+      "title": "生成式 AI 的人文導論",
+      "semester": "(2025 Spring, 2026 Spring)"
+    },
+    {
+      "title": "法律大型語言模型系統實作",
+      "semester": "(2025 Spring, 2026 Spring)"
+    },
+    {
+      "title": "人工智慧法律與政策",
+      "semester": "(2021 Spring, 2021 Fall, 2022 Fall, 2024 Fall, 2026 Spring)"
+    },
+    {
+      "title": "人工智慧與治理",
+      "semester": "(2022 Fall, 2024 Spring, 2025 Fall)"
+    },
+    {
+      "title": "生成式人工智慧於社會科學的應用",
+      "semester": "(2023 Fall, 2024 Fall, 2025 Fall)"
+    },
+    {
+      "title": "如何訓練人文學科專用語言模型（一）：對話式資料查詢系統",
+      "semester": "(2025 Summer)"
+    },
+    {
+      "title": "可解釋性人工智慧專題討論",
+      "semester": "(2022 Spring)"
+    },
+    {
+      "title": "護理暨健康照護研究設計",
+      "semester": "(2022 Spring 共同授課)"
+    },
+    {
+      "title": "聊天機器人之互動設計／聊天機器人之社會關懷與實踐",
+      "semester": "(2021 Fall)"
+    },
+    {
+      "title": "計算法律分析",
+      "semester": "(2021 Spring)"
+    },
+    {
+      "title": "文本分析與資料探勘",
+      "semester": "(2020 Fall)"
+    }
+  ],
+  "Invited Talks": [
+    {
+      "title": "從無意識到人工意識：精神分析與AI的對話",
+      "event": "臺灣精神分析學會【跨領域應用工作坊】",
+      "location": "台灣",
+      "year": 2026
+    },
+    {
+      "title": "規範人工親密關係 Regulating Artificial Intimacy",
+      "event": "政治大學創新國際學院專題演講",
+      "location": "台灣",
+      "year": 2026
+    },
+    {
+      "title": "AI 治理與法律實務之輔助應用",
+      "event": "國立臺北大學飛鳶跨域交流會（與談人）",
+      "location": "台灣",
+      "year": 2025
+    },
+    {
+      "title": "自主智慧重塑跨域與協作生態系統",
+      "event": "2025 行動計算研討會暨無線、隨意及感測網路研討會（專家對談）",
+      "location": "台灣",
+      "year": 2025
+    },
+    {
+      "title": "中央研究院法律學研究所法實證研究工作坊（與談人）",
+      "event": "中央研究院法律學研究所",
+      "location": "台灣",
+      "year": 2025
+    },
+    {
+      "title": "臺灣法實證研究資料庫調查計畫研討會（與談人）",
+      "event": "臺灣法實證研究資料庫調查計畫研討會",
+      "location": "台灣",
+      "year": 2025
+    },
+    {
+      "title": "環境永續的法制建構與治理實踐（主辦人）",
+      "event": "成功大學敏求智慧運算學院",
+      "location": "台灣",
+      "year": 2025
+    },
+    {
+      "title": "AI 與法律",
+      "event": "成功大學敏求智慧運算學院專題演講",
+      "location": "台灣",
+      "year": 2025
+    },
+    {
+      "title": "A Multi-Agent System for Argument Tracking for Taiwan's Constitutional Court",
+      "event": "成功大學法律系專題演講",
+      "location": "台灣",
+      "year": 2025
+    },
+    {
+      "title": "人工智慧於司法的應用",
+      "event": "國立中山大學化學系 AI 產業與生成式 AI 的應用課堂演講",
+      "location": "台灣",
+      "year": 2025
+    },
+    {
+      "title": "校園尋寶趣 X STEM up！——我們的科技論壇（主講人）",
+      "event": "校園尋寶趣 X STEM up！",
+      "location": "台灣",
+      "year": 2025
+    },
+    {
+      "title": "AI 伴侶：情感與法律的交錯",
+      "event": "臺科大專利所課堂演講",
+      "location": "台灣",
+      "year": 2025
+    },
+    {
+      "title": "AI 與行政管制：運用 AI 進行管制與管制 AI 發展",
+      "event": "臺灣大學法律學院演講對談",
+      "location": "台灣",
+      "year": 2025
+    },
+    {
+      "title": "成功大學醫學院人工智慧導論及倫理素養課堂演講",
+      "event": "成功大學醫學院",
+      "location": "台灣",
+      "year": 2025
+    },
+    {
+      "title": "當 AI 進入刑事偵查：挑戰、機會與治理",
+      "event": "成功大學人工智慧對高教的角色與應用論壇（主講人）",
+      "location": "台灣",
+      "year": 2025
+    },
+    {
+      "title": "臺灣法實證研究資料庫調查計畫研討會：司法、社會與科技態度調查（評論人）",
+      "event": "成功大學",
+      "location": "台灣",
+      "year": 2025
+    },
+    {
+      "title": "大型語言模型的同化風險：多元文化的反思",
+      "event": "中央研究院法律學研究所公共性與 AI 論壇專題演講",
+      "location": "台灣",
+      "year": 2024
+    },
+    {
+      "title": "生成式 AI 在法律實務之應用及對人權、弱勢、性別之挑戰（與談人）",
+      "event": "司法節國際研討會",
+      "location": "台灣",
+      "year": 2024
+    },
+    {
+      "title": "大型語言模型的公平性",
+      "event": "臺科大專利所課堂演講",
+      "location": "台灣",
+      "year": 2024
+    },
+    {
+      "title": "大型語言模型的公平性",
+      "event": "成功大學人工智慧對高教的角色與應用論壇專題演講（主講人）",
+      "location": "台灣",
+      "year": 2024
+    },
+    {
+      "title": "大型語言模型的全球文化同質風險與治理",
+      "event": "臺南大學「全國 AI 創意實作競賽-Show AI」專題演講",
+      "location": "台灣",
+      "year": 2024
+    },
+    {
+      "title": "科技治理的轉型：人工智慧的機會和挑戰",
+      "event": "臺大科教中心 AI 科普沙龍專題演講",
+      "location": "台灣",
+      "year": 2024
+    },
+    {
+      "title": "運用 AI 促進資訊完整性（專家對談）",
+      "event": "數位發展部線上公民審議大會",
+      "location": "台灣",
+      "year": 2024
+    },
+    {
+      "title": "如何避免華語 LLM 人機互動的惡性循環？（主持人）",
+      "event": "臺北國際書展中央研究院歐美所洪子偉研究員講座",
+      "location": "台灣",
+      "year": 2024
+    },
+    {
+      "title": "中央研究院法律學研究所第九屆「科技發展與法律規範」學術研討會新秀論壇（與談人）",
+      "event": "中央研究院法律學研究所",
+      "location": "台灣",
+      "year": 2023
+    },
+    {
+      "title": "陽明交通大學人文與社會科學研究中心《朝向負責任的 AI 創新》全國性公民審議大會（專家對談）",
+      "event": "陽明交通大學",
+      "location": "台灣",
+      "year": 2023
+    },
+    {
+      "title": "Generating Moral Machines",
+      "event": "中央研究院歐美研究所演講",
+      "location": "台灣",
+      "year": 2023
+    },
+    {
+      "title": "Explainable AI: A Sociotechnical Process",
+      "event": "中央研究院法律學研究所公共性與 AI 論壇",
+      "location": "台灣",
+      "year": 2023
+    },
+    {
+      "title": "獎懲式學習 AI 與衍生偏見之法律問題（與談人）",
+      "event": "成功大學人文社會研究中心【世紀啟航：人工智慧之技術與規範之接軌耦合】研討會",
+      "location": "台灣",
+      "year": 2023
+    },
+    {
+      "title": "當 AI 遇見心理學（與談人）",
+      "event": "成功大學心理系",
+      "location": "台灣",
+      "year": 2023
+    },
+    {
+      "title": "Generating Moral Machines",
+      "event": "清華大學資工系演講",
+      "location": "台灣",
+      "year": 2023
+    },
+    {
+      "title": "玩轉法律工程 Chat-GPT 的法律問答應用",
+      "event": "中山大學企管系演講",
+      "location": "台灣",
+      "year": 2023
+    },
+    {
+      "title": "清華大學人社 AI 中心 法律公共化 AI 工作坊",
+      "event": "清華大學",
+      "location": "台灣",
+      "year": 2023
+    },
+    {
+      "title": "人工智慧規範與治理",
+      "event": "臺灣科技大學專利研究所",
+      "location": "台灣",
+      "year": 2023
+    },
+    {
+      "title": "AI 法學發展與應用",
+      "event": "成功大學法律系專題演講",
+      "location": "台灣",
+      "year": 2023
+    },
+    {
+      "title": "成功大學「人工智慧對高教的衝擊及因應之道研討會」",
+      "event": "成功大學",
+      "location": "台灣",
+      "year": 2023
+    },
+    {
+      "title": "文字標註工作坊",
+      "event": "國科會公共化 AI 法律學門推廣工作坊",
+      "location": "台灣",
+      "year": 2022
+    },
+    {
+      "title": "法學實證研究（對談）",
+      "event": "科技部人社中心《學人開講》",
+      "location": "台灣",
+      "year": 2022
+    },
+    {
+      "title": "可解釋性人工智慧於司法之應用",
+      "event": "高雄地方法院",
+      "location": "台灣",
+      "year": 2022
+    },
+    {
+      "title": "Explainable AI: A Multidisciplinary Framework",
+      "event": "政治大學創新國際學院演講",
+      "location": "台灣",
+      "year": 2022
+    },
+    {
+      "title": "人工智慧與法律",
+      "event": "X-Communication 教師社群（主講人）",
+      "location": "台灣",
+      "year": 2022
+    },
+    {
+      "title": "晨間的憲法課",
+      "event": "第十二屆成功發大人（主講人）",
+      "location": "台灣",
+      "year": 2022
+    },
+    {
+      "title": "午後的憲法課",
+      "event": "第十一屆成功大學生活體驗營(CUL11)（主講人）",
+      "location": "台灣",
+      "year": 2022
+    },
+    {
+      "title": "Explainable AI",
+      "event": "政治大學創新國際學院演講",
+      "location": "台灣",
+      "year": 2022
+    },
+    {
+      "title": "台灣實證法學現況初探",
+      "event": "中央研究院行為制度研究中心演講",
+      "location": "台灣",
+      "year": 2021
+    },
+    {
+      "title": "中央研究院法律學研究所張永健研究員個人學術研討會（評論人）",
+      "event": "中央研究院法律學研究所",
+      "location": "台灣",
+      "year": 2021
+    },
+    {
+      "title": "高等教育期刊寫作工作坊（與談人）",
+      "event": "教育部資料司人文社會與科技前瞻人才培育計畫",
+      "location": "台灣",
+      "year": 2021
+    },
+    {
+      "title": "Covid-19 疫情下的風險溝通：臺灣政府防疫記者會的主題模型與內容",
+      "event": "陽明交大科法學術論壇",
+      "location": "台灣",
+      "year": 2021
+    },
+    {
+      "title": "AI 法學：混合方法研究的新面向",
+      "event": "中央研究院法律學研究所《「AI 法學如何可能？」圓桌論壇》",
+      "location": "台灣",
+      "year": 2021
+    },
+    {
+      "title": "AI 法學",
+      "event": "GDSC (Google Developer Student Club) 專題演講（主講人）",
+      "location": "台灣",
+      "year": 2021
+    },
+    {
+      "title": "AI 法學",
+      "event": "師範大學光電研究所演講",
+      "location": "台灣",
+      "year": 2021
+    },
+    {
+      "title": "AI 法學",
+      "event": "社科院 UFO 計畫-法律與大數據學群《社科院前瞻社會科學人才培育計畫專題演講》（主講人）",
+      "location": "台灣",
+      "year": 2021
+    },
+    {
+      "title": "注意力經濟持續發燒，我們該如何看待演算法？",
+      "event": "台灣網路資訊中心、NII 產業發展協進會《台灣網路講堂》",
+      "location": "台灣",
+      "year": 2021
+    },
+    {
+      "title": "社群媒體與司法溝通：比較與文本分析觀點",
+      "event": "臺灣大學法律學院《第 60 屆公法新秀論壇》",
+      "location": "台灣",
+      "year": 2020
+    },
+    {
+      "title": "文本分析與比較法：以台美社群媒體司法溝通為例",
+      "event": "清華大學科技法律研究所演講",
+      "location": "台灣",
+      "year": 2020
+    },
+    {
+      "title": "AI and Democracy: Promises and Pitfalls",
+      "event": "Miin Wu School of Computing, Workshop on Future Computing (WFC20)",
+      "location": "台灣",
+      "year": 2020
+    },
+    {
+      "title": "人工智慧與工人法官",
+      "event": "中原大學財經法律學系演講",
+      "location": "台灣",
+      "year": 2020
+    }
+  ]
+}
