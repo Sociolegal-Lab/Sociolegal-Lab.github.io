@@ -1,0 +1,162 @@
+# 網站內容管理後台設定（Sveltia CMS）
+#
+# 後台網址：https://sociolegal-lab.github.io/admin/
+# 使用者用自己的 GitHub 帳號登入，儲存時會直接 commit 到 main 分支，
+# 接著 GitHub Actions 會先檢查格式再重新建置並部署網站。
+#
+# 設定說明文件：https://sveltiacms.app/en/docs
+
+backend:
+  name: github
+  repo: Sociolegal-Lab/SC_lab_website
+  branch: main
+  # GitHub 登入用的中介服務（自架於 Cloudflare Workers）。
+  # 程式碼來源：https://github.com/sveltia/sveltia-cms-auth
+  # 維護方式與金鑰設定見 docs/content_admin_guide.md。
+  base_url: https://sveltia-cms-auth.socialegalmoj.workers.dev
+  # 只要求「公開 repo」的權限。SC_lab_website 是公開的，這樣就夠用，
+  # 成員的登入憑證因此碰不到組織底下的私有 repo（預設的 repo 權限會全部涵蓋）。
+  # 註：若哪天本 repo 改為私有，這裡必須改回 repo，否則會失去存取權。
+  auth_scope: public_repo
+
+# 後台登入畫面與標題列顯示的名稱
+app_title: Sociolegal Lab 網站內容管理
+
+# 後台裡連回網站的連結
+site_url: https://sociolegal-lab.github.io
+display_url: https://sociolegal-lab.github.io
+
+# 介面語言會依使用者的瀏覽器語言自動選擇（Sveltia 內建繁體中文 zh-TW），
+# 沒有頂層的 locale 設定可指定，因此這裡不設。
+
+# 預設的媒體資料夾（下面每個項目都會各自覆蓋這個設定）
+media_folder: /src/data
+public_folder: /data
+
+collections:
+  - name: content
+    label: 網站內容
+    files:
+      # ────────────────── 成員名單 ──────────────────
+      - name: members
+        label: 成員名單
+        file: /src/data/members/members.json
+        format: json
+        # 照片上傳到成員資料夾。前端的 getMemberPhotoUrl() 只取檔名，
+        # 因此 public_folder 的前綴是什麼都不影響顯示。
+        media_folder: /src/data/members
+        public_folder: /members
+        fields:
+          - name: members
+            label: 成員
+            label_singular: 成員
+            widget: list
+            # members.json 的根本身就是一個陣列，root: true 對應這個結構
+            root: true
+            summary: '{{fields.Chinese_name}}（{{fields.status}}）'
+            fields:
+              - name: status
+                label: 目前狀態
+                widget: select
+                default: current
+                hint: 決定這個人顯示在網頁的 CURRENT MEMBERS 還是 FORMER MEMBERS。畢業或離職只要改這一個欄位。
+                options:
+                  - { label: 現任成員, value: current }
+                  - { label: 已離開（畢業／離職）, value: former }
+
+              - name: Chinese_name
+                label: 中文姓名
+                widget: string
+
+              - name: English_name
+                label: 英文姓名
+                widget: string
+                hint: 網頁卡片上顯示的是這個欄位。
+
+              - name: title
+                label: 頭銜
+                widget: string
+                hint: 顯示在姓名下方的一行字，例如 Master's student。
+
+              - name: photo
+                label: 照片
+                widget: image
+                required: false
+                hint: 沒有照片可以留空。
+
+              - name: email
+                label: Email
+                widget: string
+                required: false
+
+              - name: bio
+                label: 卡片列點
+                widget: list
+                required: false
+                hint: 卡片上的短列點，一行一個項目。沒有可以留空。
+
+              - name: short_bio
+                label: 自我介紹
+                widget: text
+                required: false
+                hint: 較長的介紹文字，首頁的成員輪播會使用。
+
+              - name: socials
+                label: 社群連結
+                widget: object
+                required: false
+                collapsed: true
+                fields:
+                  - { name: linkedin, label: LinkedIn, widget: string, required: false }
+                  - { name: github, label: GitHub, widget: string, required: false }
+                  - { name: facebook, label: Facebook, widget: string, required: false }
+                  - { name: instagram, label: Instagram, widget: string, required: false }
+
+              - name: id
+                label: 編號
+                widget: string
+                hint: 全名單不可重複，請填目前最大號碼 +1。重複會導致資料對到錯的人，送出後自動檢查會擋下來。
+
+      # ────────────────── 最新消息 ──────────────────
+      - name: news
+        label: 最新消息
+        file: /src/data/news/news.json
+        format: json
+        media_folder: /src/data/news
+        public_folder: /news
+        fields:
+          - name: news
+            label: 消息
+            label_singular: 消息
+            widget: list
+            root: true
+            summary: '{{fields.date}} {{fields.headline}}'
+            fields:
+              - name: headline
+                label: 標題
+                widget: string
+
+              - name: date
+                label: 日期
+                widget: datetime
+                # type: date 即為「只有日期、沒有時間」，會存成 2025-09-09 這種格式。
+                # 舊的 date_format / time_format / picker_utc 已被官方標為棄用，不要使用。
+                type: date
+
+              - name: content
+                label: 內容
+                widget: text
+                required: false
+
+              - name: url
+                label: 相關連結
+                widget: string
+                required: false
+                hint: 沒有可以留空。
+
+              - name: id
+                label: 編號
+                widget: string
+                hint: >
+                  不可重複。封面圖需另外命名為「編號.jpg」放進 src/data/news/ 資料夾，
+                  無法在這個畫面上傳。
