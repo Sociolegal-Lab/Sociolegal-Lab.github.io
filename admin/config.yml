@@ -26,6 +26,13 @@ app_title: Sociolegal Lab 網站內容管理
 site_url: https://sociolegal-lab.github.io
 display_url: https://sociolegal-lab.github.io
 
+# 後台的圖示與登入畫面 logo，沿用主網站同一張（64x64 正方形）。
+# 不設定的話會顯示 Sveltia 自己的預設 logo。
+# 註：舊的 logo_url 選項已被官方標為棄用，請用 logo.src。
+logo:
+  src: /favicon_blue_background.png
+  show_in_header: true
+
 # 介面語言會依使用者的瀏覽器語言自動選擇（Sveltia 內建繁體中文 zh-TW），
 # 沒有頂層的 locale 設定可指定，因此這裡不設。
 
