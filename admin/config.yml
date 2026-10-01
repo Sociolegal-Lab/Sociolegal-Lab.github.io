@@ -167,3 +167,26 @@ collections:
                 hint: >
                   不可重複。封面圖需另外命名為「編號.jpg」放進 src/data/news/ 資料夾，
                   無法在這個畫面上傳。
+
+      # ────────────── The Lab In Action 照片輪播 ──────────────
+      - name: carousel
+        label: The Lab In Action 照片
+        file: /src/data/carousel/thelabinaction.json
+        format: json
+        media_folder: /src/data/carousel
+        public_folder: /carousel
+        description: >
+          成員頁「The Lab In Action」區塊的輪播照片，每 4 秒自動換下一張。
+          這裡的排列順序就是播放順序。
+        fields:
+          - name: photos
+            label: 照片
+            label_singular: 照片
+            widget: list
+            root: true
+            summary: '{{fields.photo}}'
+            fields:
+              - name: photo
+                label: 照片檔
+                widget: image
+                hint: 上傳後會存進 src/data/carousel/ 資料夾。
