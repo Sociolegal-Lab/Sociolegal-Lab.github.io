@@ -190,3 +190,94 @@ collections:
                 label: 照片檔
                 widget: image
                 hint: 上傳後會存進 src/data/carousel/ 資料夾。
+
+  # ══════════════════════════ 專案 ══════════════════════════
+  # 只開放編輯現有專案的內容。新增／刪除專案、調整展示順序仍需維護者處理，
+  # 因為順序由 src/data/projects/projects_index.json 人工決定
+  # （規則見 src/data/projects/README.md），且每個專案還有對應的 .md 內頁檔。
+  # 這裡列出的順序即 projects_index.json 的順序。
+  - name: projects
+    label: 專案
+    files:
+      - name: project_9
+        label: "#9 TaDELS RAG"
+        file: /src/data/projects/project_9.json
+        format: json
+        fields: &project_fields
+          - name: name
+            label: 專案名稱
+            widget: string
+
+          - name: duration
+            label: 時間
+            widget: string
+            hint: >
+              進行中的寫「開始年-ongoing」（例如 2025-ongoing），已結束的寫
+              「開始年-結束年」（例如 2024-2025）。這個欄位會影響專案在列表上的
+              排序位置，改動後請通知維護者調整 projects_index.json。
+
+          - name: contributors
+            label: 貢獻者
+            widget: list
+            hint: 一行一個人名。
+
+          - name: photo
+            label: 封面圖
+            widget: image
+            required: false
+            media_folder: /src/data/projects
+            public_folder: /projects
+
+          - name: brief_introduction
+            label: 簡介
+            widget: text
+            hint: 顯示在專案列表上的短介紹。
+
+          - name: introduction
+            label: 詳細介紹
+            widget: text
+            hint: 顯示在專案內頁。段落之間請空一行。
+
+          - name: link
+            label: 外部連結
+            widget: string
+            required: false
+            hint: 沒有可以留空。
+
+          - name: id
+            label: 編號
+            widget: number
+            value_type: int
+            readonly: true
+            hint: 不可修改，它決定對應的 .md 內頁與封面圖檔名。
+
+      - name: project_5
+        label: "#5 CrowdEyes:AI Editor"
+        file: /src/data/projects/project_5.json
+        format: json
+        fields: *project_fields
+      - name: project_6
+        label: "#6 Legal News Agent for Taiwanese Judicial …"
+        file: /src/data/projects/project_6.json
+        format: json
+        fields: *project_fields
+      - name: project_7
+        label: "#7 Navigating Judicial Overload: A Multi-Ag…"
+        file: /src/data/projects/project_7.json
+        format: json
+        fields: *project_fields
+      - name: project_1
+        label: "#1 Intersectional Moral Biases in Large Lan…"
+        file: /src/data/projects/project_1.json
+        format: json
+        fields: *project_fields
+      - name: project_8
+        label: "#8 Cross-Cultural Assessment of Bias and He…"
+        file: /src/data/projects/project_8.json
+        format: json
+        fields: *project_fields
+      - name: project_2
+        label: "#2 LeArNER: Few-shot Legal Argument Named E…"
+        file: /src/data/projects/project_2.json
+        format: json
+        fields: *project_fields
