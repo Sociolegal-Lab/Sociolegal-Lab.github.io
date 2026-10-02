@@ -188,6 +188,50 @@ collections:
                 widget: image
                 hint: 上傳後會存進 src/data/carousel/ 資料夾。
 
+      # ────────────────── 首頁 ──────────────────
+      - name: homepage
+        label: 首頁
+        file: /src/data/homepage/landinginfo.json
+        format: json
+        media_folder: /src/data/homepage
+        public_folder: /homepage
+        fields:
+          - name: elements
+            label: 首頁大標的三個詞
+            widget: list
+            hint: 顯示在首頁最上方左側，一行一個詞。
+
+          - name: school
+            label: 學校名稱
+            widget: list
+            hint: 顯示在首頁最上方右側，一行一列。
+
+          - name: about_us
+            label: About Us 的三張圖
+            widget: object
+            fields:
+              - name: data_image
+                label: DATA 圖
+                widget: image
+              - name: law_image
+                label: LAW 圖
+                widget: image
+              - name: society_image
+                label: SOCIETY 圖
+                widget: image
+
+          - name: events
+            label: Events 日曆
+            widget: object
+            fields:
+              - name: calendar_url
+                label: Google 日曆嵌入網址
+                widget: string
+                required: false
+                hint: >
+                  要用 Google 日曆的「嵌入」網址（設定 → 整合日曆 → 嵌入程式碼裡的
+                  src 網址），不是分享連結。留空則首頁不顯示日曆。
+
   # ══════════════════════════ 專案 ══════════════════════════
   # 展示順序由 duration 依規則自動計算（src/utils/sortProjects.js），不需要人工清單。
   # 要讓某個專案不出現在網站上，把「是否顯示」關掉即可。
