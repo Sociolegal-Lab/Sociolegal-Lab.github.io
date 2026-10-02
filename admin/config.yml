@@ -175,9 +175,6 @@ collections:
         format: json
         media_folder: /src/data/carousel
         public_folder: /carousel
-        description: >
-          成員頁「The Lab In Action」區塊的輪播照片，每 4 秒自動換下一張。
-          這裡的排列順序就是播放順序。
         fields:
           - name: photos
             label: 照片
@@ -192,10 +189,11 @@ collections:
                 hint: 上傳後會存進 src/data/carousel/ 資料夾。
 
   # ══════════════════════════ 專案 ══════════════════════════
-  # 只開放編輯現有專案的內容。新增／刪除專案、調整展示順序仍需維護者處理，
-  # 因為順序由 src/data/projects/projects_index.json 人工決定
-  # （規則見 src/data/projects/README.md），且每個專案還有對應的 .md 內頁檔。
-  # 這裡列出的順序即 projects_index.json 的順序。
+  # 展示順序由 duration 依規則自動計算（src/utils/sortProjects.js），不需要人工清單。
+  # 要讓某個專案不出現在網站上，把「是否顯示」關掉即可。
+  #
+  # 新增／刪除專案仍需維護者處理：一個專案由 project_N.json、同編號的封面圖、
+  # 以及 project_N.md 內頁檔組成，後台一個畫面只對應一個檔案，無法保證三者編號一致。
   - name: projects
     label: 專案
     files:
@@ -204,6 +202,12 @@ collections:
         file: /src/data/projects/project_9.json
         format: json
         fields: &project_fields
+          - name: published
+            label: 是否顯示
+            widget: boolean
+            default: true
+            hint: 關閉後這個專案就不會出現在網站上（列表、首頁輪播、上下篇導覽都不會有）。
+
           - name: name
             label: 專案名稱
             widget: string
@@ -213,8 +217,8 @@ collections:
             widget: string
             hint: >
               進行中的寫「開始年-ongoing」（例如 2025-ongoing），已結束的寫
-              「開始年-結束年」（例如 2024-2025）。這個欄位會影響專案在列表上的
-              排序位置，改動後請通知維護者調整 projects_index.json。
+              「開始年-結束年」（例如 2024-2025）。這個欄位決定專案在列表上的
+              排序位置：進行中的排最前，其餘結束越晚越前，儲存後會自動重排。
 
           - name: contributors
             label: 貢獻者
