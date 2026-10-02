@@ -285,3 +285,182 @@ collections:
         file: /src/data/projects/project_2.json
         format: json
         fields: *project_fields
+
+  # ══════════════════════════ 教授 ══════════════════════════
+  - name: leader
+    label: 教授
+    files:
+      - name: professor
+        label: 基本資料
+        file: /src/data/leader/professor.json
+        format: json
+        media_folder: /src/data/leader
+        public_folder: /leader
+        fields:
+          - name: name
+            label: 姓名
+            widget: string
+
+          - name: photo
+            label: 照片
+            widget: image
+
+          - name: position
+            label: 職稱
+            widget: string
+
+          - name: region
+            label: 研究領域
+            widget: list
+            hint: 一行一個領域。
+
+          - name: motto
+            label: 座右銘
+            widget: string
+            required: false
+
+          - name: tel
+            label: 電話
+            widget: string
+            required: false
+
+          - name: e-mail
+            label: Email
+            widget: string
+            required: false
+
+          - name: bio
+            label: 簡介
+            widget: text
+
+      - name: leader_cv
+        label: 學術資料
+        file: /src/data/leader/leader.json
+        format: json
+        fields:
+          - name: "Education"
+            label: 學歷
+            label_singular: 學歷
+            widget: list
+            collapsed: true
+            minimize_collapsed: true
+            summary: '{{fields.degree}} — {{fields.institution}}'
+            fields:
+              - name: degree
+                label: 學位
+                widget: string
+              - name: institution
+                label: 學校
+                widget: string
+          - name: "Fellowships and Awards"
+            label: 獎項與榮譽
+            label_singular: 獎項
+            widget: list
+            collapsed: true
+            minimize_collapsed: true
+            summary: '{{fields.year}} {{fields.title}}'
+            fields:
+              - name: title
+                label: 名稱
+                widget: string
+              - name: year
+                label: 年份
+                widget: number
+                value_type: int
+          - name: "Journal Articles"
+            label: 期刊論文
+            label_singular: 論文
+            widget: list
+            collapsed: true
+            minimize_collapsed: true
+            summary: '{{fields.title}}'
+            fields:
+              - name: title
+                label: 標題
+                widget: string
+              - name: publication
+                label: 出處
+                widget: string
+          - name: "Book Chapters"
+            label: 專書章節
+            label_singular: 章節
+            widget: list
+            collapsed: true
+            minimize_collapsed: true
+            summary: '{{fields.title}}'
+            fields:
+              - name: title
+                label: 標題
+                widget: string
+              - name: publication
+                label: 出處
+                widget: string
+          - name: "Selected Conference Papers"
+            label: 會議論文
+            label_singular: 論文
+            widget: list
+            collapsed: true
+            minimize_collapsed: true
+            summary: '{{fields.title}}'
+            fields:
+              - name: title
+                label: 標題
+                widget: string
+              - name: publication
+                label: 出處
+                widget: string
+          - name: "Projects"
+            label: 研究計畫
+            label_singular: 計畫
+            widget: list
+            collapsed: true
+            minimize_collapsed: true
+            summary: '{{fields.year}} {{fields.title}}'
+            fields:
+              - name: title
+                label: 名稱
+                widget: string
+              - name: year
+                label: 年份
+                widget: string
+              - name: organization
+                label: 委託單位
+                widget: string
+              - name: description
+                label: 說明
+                widget: text
+          - name: "Courses"
+            label: 授課
+            label_singular: 課程
+            widget: list
+            collapsed: true
+            minimize_collapsed: true
+            summary: '{{fields.semester}} {{fields.title}}'
+            fields:
+              - name: title
+                label: 課程名稱
+                widget: string
+              - name: semester
+                label: 學期
+                widget: string
+          - name: "Invited Talks"
+            label: 演講
+            label_singular: 演講
+            widget: list
+            collapsed: true
+            minimize_collapsed: true
+            summary: '{{fields.year}} {{fields.title}}'
+            fields:
+              - name: title
+                label: 主題
+                widget: string
+              - name: event
+                label: 場合
+                widget: string
+              - name: location
+                label: 地點
+                widget: string
+              - name: year
+                label: 年份
+                widget: number
+                value_type: int
