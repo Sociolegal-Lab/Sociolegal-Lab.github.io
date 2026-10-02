@@ -338,7 +338,7 @@ collections:
         file: /src/data/leader/leader.json
         format: json
         fields:
-          - name: "Education"
+          - name: education
             label: 學歷
             label_singular: 學歷
             widget: list
@@ -352,7 +352,7 @@ collections:
               - name: institution
                 label: 學校
                 widget: string
-          - name: "Fellowships and Awards"
+          - name: fellowships_and_awards
             label: 獎項與榮譽
             label_singular: 獎項
             widget: list
@@ -367,7 +367,7 @@ collections:
                 label: 年份
                 widget: number
                 value_type: int
-          - name: "Journal Articles"
+          - name: journal_articles
             label: 期刊論文
             label_singular: 論文
             widget: list
@@ -381,7 +381,7 @@ collections:
               - name: publication
                 label: 出處
                 widget: string
-          - name: "Book Chapters"
+          - name: book_chapters
             label: 專書章節
             label_singular: 章節
             widget: list
@@ -395,7 +395,7 @@ collections:
               - name: publication
                 label: 出處
                 widget: string
-          - name: "Selected Conference Papers"
+          - name: selected_conference_papers
             label: 會議論文
             label_singular: 論文
             widget: list
@@ -409,7 +409,7 @@ collections:
               - name: publication
                 label: 出處
                 widget: string
-          - name: "Projects"
+          - name: projects
             label: 研究計畫
             label_singular: 計畫
             widget: list
@@ -429,7 +429,7 @@ collections:
               - name: description
                 label: 說明
                 widget: text
-          - name: "Courses"
+          - name: courses
             label: 授課
             label_singular: 課程
             widget: list
@@ -443,7 +443,7 @@ collections:
               - name: semester
                 label: 學期
                 widget: string
-          - name: "Invited Talks"
+          - name: invited_talks
             label: 演講
             label_singular: 演講
             widget: list
