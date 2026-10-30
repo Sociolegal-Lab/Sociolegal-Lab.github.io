@@ -68,7 +68,9 @@
     "title": "Human being",
     "photo": "4.jpeg",
     "email": "nm6144038@gs.ncku.edu.tw",
-    "bio": [],
+    "bio": [
+      "class of 2027"
+    ],
     "short_bio": "Chun-Chieh Niu is currently a master’s student in the Intelligent Technology Systems Program at the Miin Wu School of Computing, National Cheng Kung University (NCKU). He received his B.S. degree from the Department of Engineering Science at NCKU and now serves as the Chief Technology Officer (CTO) of TechNSport Technology. His research interests include robotics, the Internet of Things (IoT), large language models (LLMs), and sports science, with a focus on integrating AI and sensing technologies into smart sports applications and human–machine collaboration.",
     "socials": {
       "linkedin": "",
