@@ -89,11 +89,7 @@
     "title": "Jerry Jing-Ze Chen",
     "photo": "5.jpeg",
     "email": "jcicku@gmail.com",
-    "bio": [
-      "",
-      "",
-      ""
-    ],
+    "bio": [],
     "short_bio": "Hi, I’m Jerry. I major in Industrial & Information Management and work part-time as a quantitative research consultant. I’m deeply interested in value investing, strategic history, and visual design, and I have a knack for strategy games. I believe that developing AI for regulatory domains—finance, law, defense, and medicine—is an inevitable trend. I’m pursuing both ends of the smile curve and believe that coherent communication and collaboration can boost our sync rate and lead us toward a better future.",
     "socials": {
       "linkedin": "https://www.linkedin.com/in/jingzec",
@@ -138,5 +134,22 @@
       "instagram": ""
     },
     "id": "0"
+  },
+  {
+    "status": "current",
+    "Chinese_name": "劉宇宸",
+    "English_name": "YU-CHEN LIU",
+    "title": "alive",
+    "photo": "/members/7.jpeg",
+    "email": "NM6151043@gs.ncku.edu.tw",
+    "bio": [],
+    "short_bio": "online",
+    "socials": {
+      "linkedin": "",
+      "github": "",
+      "facebook": "",
+      "instagram": ""
+    },
+    "id": "7"
   }
 ]
